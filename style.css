@@ -5,3 +5,13 @@ h1 {
 h3 {
   font-family: 'Muli', sans-serif;
 }
+
+.portfolio-heading {
+  font-weight: bold;
+  
+}
+
+#joe-johnson-pic {
+  height: 400px;
+  width: 300px;
+}
