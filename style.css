@@ -1,17 +1,108 @@
 h1 {
   font-family: 'Muli', sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
 }
+
+h2 {
+  font-size: 36px;
+}
+
 
 h3 {
   font-family: 'Muli', sans-serif;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header {
+  text-align: center;
+  border-top: 3px solid black;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+a {
+  color: black;
+  font-size: 18px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  border-top: 3px solid black;
+  padding-top: 50px;
+  clear:both;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .portfolio-heading {
   font-weight: bold;
-  
+  font-size: 18px;
+
 }
 
+.social-media {
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px;
+
+}
+
+.portfolio-li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.screenshot {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.school {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
 #joe-johnson-pic {
-  height: 400px;
-  width: 300px;
+  width: 15%;
+  float: right;
+  margin-right: 29%;
+  margin-bottom: 24px;
+}
+#about-me {
+  width: 20%;
+  margin-left: 29%;
+  float: left;
+  display:block;
+  font-size: 25px;
+}
+
+#experience {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#portfolio {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#education {
+  width: 50%;
+  margin: 0 auto;
 }
